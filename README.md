@@ -5,7 +5,7 @@ Code repository for the paper "Dirichlet Prior Networks for Continual Learning" 
 ## Running experiments
 Experiemnts are configured using gin-config and therefore can easily be created and adjusted using config files. An example for such a configuration is given by:
 
-`# Hyperparameters
+```# Hyperparameters
 run.epochs = 250
 run.val_iters = 500
 run.batch_size = 256
@@ -29,8 +29,8 @@ run.distillation = True
 run.dist_strength = 2.0
 run.weight_decay = 2e-4
 run.activation = "softmax"
-run.ood_dataset = "CIFAR10"`
+run.ood_dataset = "CIFAR10"```
 
 This experiment can then be run by exceuting:
 
-`python -u train_ResNet_rehearsal.py --config="./experiments/CIFAR100_10/RN32_RD"`
+```python -u train_ResNet_rehearsal.py --config="./experiments/CIFAR100_10/RN32_RD"```
