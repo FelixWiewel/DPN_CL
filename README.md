@@ -5,7 +5,7 @@ Code repository for the paper "Dirichlet Prior Networks for Continual Learning" 
 ## Results
 
 ### CIFAR100
-![ICL Sequence with 5 steps](./ecperiments/CIFAR100_5/ICL_results.pdf)
+![ICL Sequence with 5 steps](/ecperiments/CIFAR100_5/ICL_results.pdf)
 
 ## Running experiments
 Experiemnts are configured using gin-config and therefore can easily be created and adjusted using config files. An example for such a configuration is given by:
